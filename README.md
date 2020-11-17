@@ -1,6 +1,6 @@
 # About JPex
 
-JApp.js is a client-side javascript library for developing Single Page Web Applications. _Inspired by Android Framework_
+JPex is a client-side javascript library for developing Single Page Web Applications. _Inspired by Android Framework_
 
 ## Usage
 
