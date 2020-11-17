@@ -55,7 +55,7 @@ Thank you for considering contributing. To contribute, you can create a pull req
 
 ## License
 
-JApp.js is licensed under [MIT License](https://opensource.org/license/MIT)
+JPex is licensed under [MIT License](https://opensource.org/license/MIT)
 
 
 
