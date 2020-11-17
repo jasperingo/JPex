@@ -55,7 +55,7 @@ Thank you for considering contributing. To contribute, you can create a pull req
 
 ## License
 
-JPex is licensed under [MIT License](https://opensource.org/license/MIT)
+JPex is licensed under [Mozilla Public License Version 2.0](https://mozilla.org/en-Us/MPL)
 
 
 
