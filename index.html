@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>JPex Build</title>
+	<style type="text/css">
+
+		body {
+			margin:0;
+		}
+
+		header {
+			padding:1px;
+			color:#FFFFFF;
+			text-align:center;
+			background-color:#660066;
+		}
+
+		header > nav > ul > li {
+			display:inline-block;
+		}
+
+		header > nav > ul > li > button {
+			width:100px;
+			height:40px;
+			background-color:#FFFFFF;
+		}
+
+		section {
+			padding:20px;
+		}
+
+
+		input.invalid {
+			background-color:red;
+		}
+
+		.hide {
+			display:none;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+
+	<header>
+		<h1>JPex</h1>
+		<nav>
+			<ul>
+				<li>
+					<button>Home</button>
+				</li>
+				<li>
+					<button>Explore</button>
+				</li>
+				<li>
+					<button>Log in</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+
+	<section id="Home" class="hidej">
+
+		<div>
+			<h2>Home</h2>
+
+			<p>Lorem ipsum dolor sit amet, <em>consectetur adipisicing elit,</em> sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div>
+			<h2>News</h2>
+
+			<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit,</strong> sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+	</section>
+
+
+	<section id="explore" class="hide">
+
+		<h2>Explore</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</section>
+
+
+	<section id="log-in" class="hide">
+
+		<form novalidate="1">
+
+			<p>
+				<label for="f">PHOTO</label>
+				<input type="file" name="photo" id="f" accept="image/*" maxlength="10240" minlength="500" required="required" />
+			</p>
+
+			<p>
+				<label for="n">NAME</label>
+				<input type="text" name="name" id="n" required="required" minlength="3" maxlength="5" jpex-error-messages='{
+					"tooShort":"Name must not be less than (???)",
+					"tooLong":"Name is long oga"
+				}' />
+			</p>
+
+			<p>
+				<label for="e">EMAIL</label>
+				<input type="email" name="email" id="e" required="required" />
+			</p>
+
+			<p>
+				<label for="p">PASSWORD</label>
+				<input type="password" name="password" id="p" required="required" minlength="4" maxlength="10" />
+			</p>
+
+			<p>
+				<label for="g">GENDER</label>
+				<select name="password" id="g" required="required">
+					<option>select</option>
+					<option>M</option>
+					<option>F</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="d">DOB</label>
+				<input type="date" name="dob" id="d" required="required" />
+			</p>
+
+			<input type="submit" name="submit" />
+		</form>
+
+	</section>
+
+
+	<script type="text/javascript" src="JPex.js"></script>
+	<script type="text/javascript" src="DOM.js"></script>
+	<script type="text/javascript" src="HistoryManager.js"></script>
+	<script type="text/javascript" src="Ajax.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+	<script type="text/javascript" src="Validator.js"></script>
+	<!--<script type="text/javascript" src=".js"></script>-->
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
